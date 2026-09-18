@@ -1,7 +1,7 @@
 {
-  "id": "com.example.my_mod",
-  "name": "My Mod",
+  "id": "com.tomtee.no_underwater_filter",
+  "name": "No Underwater Filter",
   "version": "1.0.0",
-  "author": "You",
-  "description": "An example Dusklight mod"
+  "author": "tomtee",
+  "description": "Removes the underwater distortion filter."
 }
