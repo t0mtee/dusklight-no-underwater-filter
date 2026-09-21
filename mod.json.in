@@ -1,7 +1,7 @@
 {
   "id": "com.tomtee.no_underwater_filter",
   "name": "No Underwater Filter",
-  "version": "1.0.0",
+  "version": "@PROJECT_VERSION@",
   "author": "tomtee",
   "description": "Removes the underwater distortion filter."
 }
