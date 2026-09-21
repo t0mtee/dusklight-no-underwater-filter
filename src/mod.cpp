@@ -9,7 +9,6 @@ DEFINE_MOD();
 
 IMPORT_SERVICE(HookService, svc_hook);
 
-// Example game hook: turn heart drops into green rupees.
 DEFINE_HOOK(dKy_undwater_filter_draw, UnderwaterFilterDraw);
 
 extern "C"
