@@ -18,12 +18,8 @@ extern "C"
     MOD_EXPORT ModResult mod_initialize(ModError*)
     {
         ModResult result = mods::hook::replace<UnderwaterFilterDraw>(underwater_filter_draw_replace);
-        if (result != MOD_OK)
-        {
-            return result;
-        }
 
-        return MOD_OK;
+        return result;
     }
 
     MOD_EXPORT ModResult mod_update(ModError*) { return MOD_OK; }
