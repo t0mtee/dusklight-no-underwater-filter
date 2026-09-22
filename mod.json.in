@@ -3,5 +3,15 @@
   "name": "No Underwater Filter",
   "version": "@PROJECT_VERSION@",
   "author": "tomtee",
-  "description": "Removes the underwater distortion filter."
+  "description": "Removes the underwater distortion filter.",
+  "abi": 1,
+  "imports": [
+    {
+      "service_id": "dev.twilitrealm.dusklight.hook",
+      "major": 1,
+      "min_minor": 1,
+      "optional": false
+    }
+  ],
+  "exports": []
 }
